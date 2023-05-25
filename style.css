@@ -10,6 +10,7 @@ body {
     border-collapse: collapse;
     border: 1px solid grey;
     background-color: #CFCFCF;
+    border: 10px outset #968d8d;
 }
 
 .row {
@@ -68,9 +69,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .full .button {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
+}
+
+.full .button::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    box-shadow: inset 10px 10px 5px rgb(207, 207, 207);
 }
