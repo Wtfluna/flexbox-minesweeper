@@ -1,3 +1,5 @@
 # flexbox-minesweeper
 
-#Make a minefield that looks like the image below, using Flexbox.
+# Make a minefield that looks like the image, using Flexbox.
+
+## https://wtfluna.github.io/flexbox-minesweeper/
